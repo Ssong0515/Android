@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/main"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="50dp"
+        tools:context=".MainActivity3">
+
+    <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="선택을 시작하시겠습니까?" />
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="시작함" />
+
+    <Switch
+            android:id="@+id/showSwitch"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    <TextView
+            android:id="@+id/firstTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            android:text="좋아하는 연예인은?" />
+
+    <RadioGroup
+            android:id="@+id/rdoGroup"
+            android:visibility="gone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+        <RadioButton
+                android:id="@+id/rdo1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="true"
+                android:text="김유정" />
+
+        <RadioButton
+                android:id="@+id/rdo2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="카리나" />
+
+        <RadioButton
+                android:id="@+id/rdo3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="장원영" />
+
+    </RadioGroup>
+
+    <ImageView
+            android:id="@+id/imgView1"
+            android:layout_width="260dp"
+            android:layout_height="260dp"
+            android:visibility="gone"
+            android:src="@drawable/img11" />
+
+</LinearLayout>

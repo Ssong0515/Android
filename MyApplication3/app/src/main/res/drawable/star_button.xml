@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--<shape xmlns:android="http://schemas.android.com/apk/res/android"-->
+<!--        android:shape="rectangle"-->
+<!--        >-->
+<!--<solid android:color="#6666FF" />-->
+<!--<polygon-->
+<svg width="100" height="100" xmlns="http://www.w3.org/2000/svg">
+    <polygon points="50,10 61,35 88,35 67,50 75,75 50,60 25,75 33,50 12,35 39,35"
+            style="fill:gold;stroke:black;stroke-width:2" />
+</svg>
+
+
+<!--</shape>-->

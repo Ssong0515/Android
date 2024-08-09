@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/main"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context=".SecondActivity">
+
+    <Button
+            android:id="@+id/backBtn"
+            android:text="돌아가기"
+            />
+    <Button
+            android:id="@+id/newBtn"
+            android:text="새화면"/>
+
+</GridLayout>

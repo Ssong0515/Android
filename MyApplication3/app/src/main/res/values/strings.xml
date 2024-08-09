@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">MyApplication3</string>
+    <string name="txt_stop">stop</string>
+    <string name="txt_dec">감소</string>
+</resources>
