@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/main"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context=".MainActivity_sub"
+        android:padding="24dp">
+
+    <EditText
+            android:id="@+id/nameTxt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="이름" />
+
+    <EditText
+            android:id="@+id/ageTxt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="나이" />
+
+    <EditText
+            android:id="@+id/elseTxt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="기타" />
+
+    <Button
+            android:id="@+id/returnBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="돌아가기" />
+
+</LinearLayout>
