@@ -26,8 +26,8 @@
 
         <Switch
                 android:id="@+id/switchBtn"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content" />
+                android:layout_width="48dp"
+                android:layout_height="48dp" />
 
     </LinearLayout>
 
@@ -46,57 +46,27 @@
             android:visibility="invisible">
 
 
-
-<androidx.constraintlayout.widget.ConstraintLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content">
-
-    <RadioButton
-            android:id="@+id/rdo1"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="김유정"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintEnd_toStartOf="@id/img11"
-            />
-
-    <ImageView
-            android:id="@+id/img11"
-            android:layout_width="50dp"
-            android:layout_height="50dp"
-            android:layout_marginLeft="10dp"
-            android:src="@drawable/img11"
-            app:layout_constraintStart_toEndOf="@id/rdo1"
-            app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintBottom_toBottomOf="parent"
-            />
-
-</androidx.constraintlayout.widget.ConstraintLayout>
+        <RadioButton
+                android:id="@+id/rdo1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="김유정"
+                android:drawableRight="@drawable/img11"
+                />
 
         <RadioButton
                 android:id="@+id/rdo2"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="카리나" />
-
-        <ImageView
-                android:layout_width="50dp"
-                android:layout_height="50dp"
-                android:layout_marginLeft="10dp"
-                android:src="@drawable/img2" />
-
+                android:text="카리나"
+                android:drawableRight="@drawable/img2"/>
 
         <RadioButton
                 android:id="@+id/rdo3"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="장원영" />
-
-        <ImageView
-                android:layout_width="50dp"
-                android:layout_height="50dp"
-                android:layout_marginLeft="10dp"
-                android:src="@drawable/img33" />
+                android:text="장원영"
+                android:drawableRight="@drawable/img33"/>
 
     </RadioGroup>
 

@@ -1,12 +1,16 @@
 package com.example.myapplication3
 
+import android.graphics.drawable.Drawable
 import android.os.Bundle
 import android.view.View
+import android.widget.RadioButton
+import android.widget.RadioGroup
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
 import com.example.myapplication3.databinding.ActivityMain7Binding
+import kotlin.math.log
 
 class MainActivity7 : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -36,6 +40,20 @@ class MainActivity7 : AppCompatActivity() {
             }
         }
 
+        val radioRg: RadioGroup = binding.rg
+
+        for (childIndex in 0..<radioRg.childCount) {
+            var rdoBtn = radioRg.getChildAt(childIndex)
+
+            if (rdoBtn is RadioButton) {
+                var drawImage: Drawable? = rdoBtn.compoundDrawables[2]
+                if (drawImage != null) {
+                    drawImage.setBounds(0, 0, 80, 80)
+                    rdoBtn.compoundDrawablePadding = 16
+                    rdoBtn.setCompoundDrawables(null, null, drawImage, null)
+                }
+            }
+        }
 
 
     }
