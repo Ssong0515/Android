@@ -54,6 +54,8 @@ class MainActivity : AppCompatActivity() {
             activityResultLuncher.launch(intent)
         }
 
+
+
 //        binding.inputBtn.setOnClickListener {
 //            val intent = Intent(this, MainActivity_sub::class.java)
 //
