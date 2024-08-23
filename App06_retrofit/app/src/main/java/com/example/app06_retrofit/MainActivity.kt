@@ -36,7 +36,7 @@ class MainActivity : AppCompatActivity() {
             var photoList = mutableListOf<Photo>()
             val photoAdapter = PhotoAdapter(photoList)
             binding.recyclerView.adapter = photoAdapter
-            PhotoClient.retrofit.doGetPhotos().enqueue(object :retrofit2.Callback<List<Photo>>{
+            photoClient.retrofit.doGetPhotos().enqueue(object :retrofit2.Callback<List<Photo>>{
                 override fun onResponse(call: Call<List<Photo>>, response: Response<List<Photo>>) {
                     if (response.isSuccessful) {
                         Log.d("onResponse: ", "${response.body()}")
@@ -61,7 +61,7 @@ class MainActivity : AppCompatActivity() {
             val postAdapter = PostAdapter(postList)
             binding.recyclerView.adapter = postAdapter
 
-            PhotoClient.retrofit.doGetPosts().enqueue(object :retrofit2.Callback<List<Post>>{
+            photoClient.retrofit.doGetPosts().enqueue(object :retrofit2.Callback<List<Post>>{
                 override fun onResponse(call: Call<List<Post>>, response: Response<List<Post>>) {
                     if (response.isSuccessful) {
                         Log.d("postOnResponse: ", "${response.body()}")
