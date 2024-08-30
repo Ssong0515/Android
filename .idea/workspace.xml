@@ -17,109 +17,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d0fe593a-8220-4940-a24f-040f49f849a3" name="변경" comment="변경">
-      <change afterPath="$PROJECT_DIR$/App09_DB/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/App09_DB/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/App09_DB/.idea/.name" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/App09_DB/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/App09_DB/.idea/deploymentTargetSelector.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/App09_DB/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/App09_DB/.idea/kotlinc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/App09_DB/.idea/migrations.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/App09_DB/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/App09_DB/.idea/other.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/App09_DB/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/App09_DB/app/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/App09_DB/app/build.gradle.kts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/App09_DB/app/proguard-rules.pro" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/App09_DB/app/src/androidTest/java/com/example/app09_db/ExampleInstrumentedTest.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/App09_DB/app/src/main/AndroidManifest.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/App09_DB/app/src/main/java/com/example/app09_db/MainActivity.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/App09_DB/app/src/main/java/com/example/app09_db/MainActivity2.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/App09_DB/app/src/main/res/drawable/ic_launcher_background.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/App09_DB/app/src/main/res/drawable/ic_launcher_foreground.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/App09_DB/app/src/main/res/layout/activity_main.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/App09_DB/app/src/main/res/layout/activity_main2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/App09_DB/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/App09_DB/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/App09_DB/app/src/main/res/mipmap-hdpi/ic_launcher.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/App09_DB/app/src/main/res/mipmap-hdpi/ic_launcher_round.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/App09_DB/app/src/main/res/mipmap-mdpi/ic_launcher.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/App09_DB/app/src/main/res/mipmap-mdpi/ic_launcher_round.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/App09_DB/app/src/main/res/mipmap-xhdpi/ic_launcher.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/App09_DB/app/src/main/res/mipmap-xhdpi/ic_launcher_round.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/App09_DB/app/src/main/res/mipmap-xxhdpi/ic_launcher.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/App09_DB/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/App09_DB/app/src/main/res/mipmap-xxxhdpi/ic_launcher.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/App09_DB/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/App09_DB/app/src/main/res/values-night/themes.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/App09_DB/app/src/main/res/values/colors.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/App09_DB/app/src/main/res/values/strings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/App09_DB/app/src/main/res/values/themes.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/App09_DB/app/src/main/res/xml/backup_rules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/App09_DB/app/src/main/res/xml/data_extraction_rules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/App09_DB/app/src/test/java/com/example/app09_db/ExampleUnitTest.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/App09_DB/build.gradle.kts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/App09_DB/gradle.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/App09_DB/gradle/libs.versions.toml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/App09_DB/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/App09_DB/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/App09_DB/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/App09_DB/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/App09_DB/settings.gradle.kts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/App09_db1/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/App09_db1/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/App09_db1/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/App09_db1/.idea/deploymentTargetSelector.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/App09_db1/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/App09_db1/.idea/kotlinc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/App09_db1/.idea/migrations.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/App09_db1/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/App09_db1/.idea/other.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/App09_db1/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/App09_db1/app/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/App09_db1/app/build.gradle.kts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/App09_db1/app/proguard-rules.pro" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/App09_db1/app/src/androidTest/java/com/example/app09_db1/ExampleInstrumentedTest.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/App09_db1/app/src/main/AndroidManifest.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/App09_db1/app/src/main/java/com/example/app09_db1/MainActivity.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/App09_db1/app/src/main/java/com/example/app09_db1/Memo.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/App09_db1/app/src/main/java/com/example/app09_db1/RecyclerAdapter.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/App09_db1/app/src/main/java/com/example/app09_db1/SqliteHelper.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/App09_db1/app/src/main/res/drawable/ic_launcher_background.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/App09_db1/app/src/main/res/drawable/ic_launcher_foreground.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/App09_db1/app/src/main/res/layout/activity_main.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/App09_db1/app/src/main/res/layout/item_recycler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/App09_db1/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/App09_db1/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/App09_db1/app/src/main/res/mipmap-hdpi/ic_launcher.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/App09_db1/app/src/main/res/mipmap-hdpi/ic_launcher_round.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/App09_db1/app/src/main/res/mipmap-mdpi/ic_launcher.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/App09_db1/app/src/main/res/mipmap-mdpi/ic_launcher_round.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/App09_db1/app/src/main/res/mipmap-xhdpi/ic_launcher.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/App09_db1/app/src/main/res/mipmap-xhdpi/ic_launcher_round.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/App09_db1/app/src/main/res/mipmap-xxhdpi/ic_launcher.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/App09_db1/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/App09_db1/app/src/main/res/mipmap-xxxhdpi/ic_launcher.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/App09_db1/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/App09_db1/app/src/main/res/values-night/themes.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/App09_db1/app/src/main/res/values/colors.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/App09_db1/app/src/main/res/values/strings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/App09_db1/app/src/main/res/values/themes.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/App09_db1/app/src/main/res/xml/backup_rules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/App09_db1/app/src/main/res/xml/data_extraction_rules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/App09_db1/app/src/test/java/com/example/app09_db1/ExampleUnitTest.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/App09_db1/build.gradle.kts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/App09_db1/gradle.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/App09_db1/gradle/libs.versions.toml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/App09_db1/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/App09_db1/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/App09_db1/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/App09_db1/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/App09_db1/settings.gradle.kts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/App10_retrofit/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/App10_retrofit/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/App10_retrofit/.idea/deploymentTargetSelector.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/App10_retrofit/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/App10_retrofit/.idea/kotlinc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/App10_retrofit/.idea/migrations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/App10_retrofit/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/App10_retrofit/.idea/other.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/App10_retrofit/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/App10_retrofit/app/src/main/java/com/example/app10_retrofit/Phone.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/App10_retrofit/app/src/main/java/com/example/app10_retrofit/PhoneAdapter.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/App10_retrofit/app/src/main/java/com/example/app10_retrofit/PhoneClient.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/App10_retrofit/app/src/main/java/com/example/app10_retrofit/PhoneInterface.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/App10_retrofit/app/src/main/res/layout/custom_phone.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/App10_retrofit/app/src/main/res/layout/item_phone.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/App08_chap12/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/App08_chap12/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/App08_chap12/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/App08_chap12/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/App08_chap12/.idea/other.xml" beforeDir="false" afterPath="$PROJECT_DIR$/App08_chap12/.idea/other.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -275,6 +189,8 @@
       <workItem from="1724890038451" duration="122000" />
       <workItem from="1724895063557" duration="1184000" />
       <workItem from="1724899498046" duration="42000" />
+      <workItem from="1724979838410" duration="69000" />
+      <workItem from="1724979938220" duration="42000" />
     </task>
     <servers />
   </component>
