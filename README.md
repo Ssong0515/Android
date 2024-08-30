@@ -28,6 +28,10 @@
 3. 엔드포인트 interface 설정
 4. retrofit 서버 설정 구성
 
+- 안드로이드 서버 설정
+  - `<uses-permission android:name="android.permission.INTERNET"/>`
+  - `android:usesCleartextTraffic="true"`
+
 - enqueue(object: retrofit2.Callback<반환값>{...}) : 반환값이 있을 경우 받아오는 콜백 함수
 
 ## spring에 간단하게 DB 연결
@@ -52,4 +56,3 @@
 - update (service 클래스)
   - 영속성에 있는 객체를 불러와 수정 : 더티체킹
   - @Transactional : 서비스 클래스에서 사용 가능, 업데이트 하면 자동으로 flush가 반영되어 변경 저장 됨
-  
