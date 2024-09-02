@@ -24,26 +24,37 @@
 - 서버와 통신 하기 위해 중간 변환 역할
 
 1. retrofit 의존성 추가
+- retrofit gradle 설정
+  - `implementation("com.squareup.retrofit2:retrofit:2.9.0")`
+  - `implementation("com.squareup.retrofit2:converter-gson:2.9.0")`
+
 2. 주고 받을 객체 생성 (data class)
-3. 엔드포인트 interface 설정
+3. retrofit 서버 설정 & 엔드포인트 interface 설정
+
+  - @GET, @POST, @PUT, @DELETE 뒤에 ("주소")로 path 설정 
+  - @Body: 객체를 자동으로 json 형식으로 변경
+  - @Path: 주소에 담아 보내는 데이터 설정
+
 4. retrofit 서버 설정 구성
+
 
 - 안드로이드 서버 설정
   - `<uses-permission android:name="android.permission.INTERNET"/>`
   - `android:usesCleartextTraffic="true"`
+
 
 - enqueue(object: retrofit2.Callback<반환값>{...}) : 반환값이 있을 경우 받아오는 콜백 함수
 
 ## spring에 간단하게 DB 연결
 
 - application.properties
-`spring.application.name=androidPhone`
+
 `server.port=8899`
 
 `spring.datasource.driver-class-name=com.mysql.cj.jdbc.Driver`
 `spring.datasource.url=jdbc:mysql://localhost:3306/androidDB?useSSL=false&serverTimezone=Asia/Seoul&characterEncoding=UTF-8`
-`spring.datasource.hikari.username=root`
-`spring.datasource.hikari.password=full405`
+`spring.datasource.username=root`
+`spring.datasource.password=full405`
 
 `spring.devtools.livereload.enabled=true`
 
@@ -56,3 +67,7 @@
 - update (service 클래스)
   - 영속성에 있는 객체를 불러와 수정 : 더티체킹
   - @Transactional : 서비스 클래스에서 사용 가능, 업데이트 하면 자동으로 flush가 반영되어 변경 저장 됨
+
+- @RequiredArgsConstructor와 final
+  - @Autowired와 같은 기능
+  - 종속성 주입(영속성 컨텍스트에 있는 객체와 연결)
